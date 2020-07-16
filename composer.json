@@ -1,0 +1,17 @@
+{
+    "name": "slinge/sample-project",
+    "description": "creating sample composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shweta linge",
+            "email": "shwetalinge@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {"slinge\\Sampleproject\\": "src/"}
+	},
+    "require": {}
+}
